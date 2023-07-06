@@ -1,0 +1,127 @@
+@font-face {
+  font-family: "Karla";
+  src: url("./assets/fonts/Karla/Karla-Regular.ttf") format("woff2"),
+    url("./assets/fonts/Karla/Karla-Regular.ttf") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Karla";
+  src: url("./assets/fonts/Karla/Karla-Bold.ttf") format("woff2"),
+    url("./assets/fonts/Karla/Karla-Bold.ttf") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+
+$cyan: hsl(179, 62%, 43%);
+$bright-yellow: hsl(71, 73%, 54%);
+$light-gray: hsl(204, 43%, 93%);
+$grayish-blue: hsl(218, 22%, 67%);
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Karla", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 1em;
+  min-height: 100vh;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+main {
+  width: 39em;
+  height: 29em;
+  border-radius: 10px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.1);
+}
+
+.top {
+  padding: 2.5em;
+  display: grid;
+  gap: 15px;
+
+  h1 {
+    color: $cyan;
+  }
+
+  p:first-of-type {
+    color: $bright-yellow;
+    font-weight: 700;
+    margin-top: 5px;
+  }
+
+  p:nth-of-type(2) {
+    color: $grayish-blue;
+  }
+}
+
+.bottom {
+  display: flex;
+  flex-grow: 1;
+}
+
+.left {
+  padding: 2.5em;
+  width: 316px;
+  background-color: $cyan;
+  color: white;
+  display: grid;
+
+  h1 {
+    font-size: 1.1em;
+  }
+
+  
+}
+
+.price {
+  font-size: 1em; 
+  align-items: center;
+
+  b {
+    font-size: 1.5em;
+  }
+}
+
+.right {
+  padding: 2.5em;
+  width: 316px;
+  background-color: cyan;
+  color: white;
+
+
+}
+
+.sign-up {
+  background-color: $bright-yellow;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  width: 14.7em;
+  height: 2.8em;
+  align-items: center;
+  text-align: center;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  bottom: 0;
+  position: absolute;
+  margin-bottom: 1rem;
+
+  a {
+    color: $cyan;
+  }
+}
