@@ -13,24 +13,27 @@
 * {
   padding: 0;
   margin: 0;
-  font-family: "Karla", sans-serif;
   box-sizing: border-box;
 }
 
 body {
+  font-family: "Karla", sans-serif;
   font-size: 1em;
   min-height: 100vh;
-  background-color: black;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  font-weight: normal;
+  color: white;
+  position: relative;
+  background-color: hsl(204, 43%, 93%);
 }
 
 main {
   width: 39em;
   height: 29em;
-  border-radius: 10px;
+  border-radius: 5px;
   background-color: white;
   display: flex;
   flex-direction: column;
@@ -42,16 +45,23 @@ main {
   display: grid;
   gap: 15px;
 }
-.top h1 {
+.top .title {
   color: hsl(179, 62%, 43%);
+  font-weight: bold;
 }
-.top p:first-of-type {
+.top .subtitle {
   color: hsl(71, 73%, 54%);
   font-weight: 700;
-  margin-top: 5px;
+  margin-top: 10px;
 }
-.top p:nth-of-type(2) {
+.top .description {
   color: hsl(218, 22%, 67%);
+  line-height: 1.5625em;
+}
+
+.subtitle {
+  font-size: 1.1em;
+  font-weight: bold;
 }
 
 .bottom {
@@ -59,50 +69,121 @@ main {
   flex-grow: 1;
 }
 
-.left {
+.monthly-subscription {
   padding: 2.5em;
   width: 316px;
   background-color: hsl(179, 62%, 43%);
   color: white;
   display: grid;
+  border-bottom-left-radius: 5px;
 }
-.left h1 {
-  font-size: 1.1em;
+.monthly-subscription .description {
+  margin-top: 9px;
+  font-size: 15px;
+}
+
+.subscription-price {
+  display: flex;
+  align-items: center;
+  gap: 0.7em;
+  margin-top: 18px;
 }
 
 .price {
-  font-size: 1em;
-  align-items: center;
-}
-.price b {
-  font-size: 1.5em;
+  font-size: 2em;
+  font-weight: bold;
 }
 
-.right {
+.sub-type {
+  opacity: 0.5;
+}
+
+.why-us {
   padding: 2.5em;
   width: 316px;
-  background-color: cyan;
+  background-color: rgb(74, 190, 189);
   color: white;
+  border-bottom-right-radius: 5px;
+  display: grid;
 }
 
-.sign-up {
+.feautures {
+  font-size: 13px;
+  line-height: 1.5em;
+  color: hsl(204, 43%, 93%);
+  margin-top: 15px;
+  opacity: 0.75;
+}
+
+.btn-sign-up {
+  margin-top: 26px;
+  width: 100%;
+  height: 2.9em;
   background-color: hsl(71, 73%, 54%);
   color: white;
   border: none;
-  border-radius: 3px;
-  width: 14.7em;
-  height: 2.8em;
+  border-radius: 5px;
   align-items: center;
   text-align: center;
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.1);
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.btn-sign-up:hover {
+  background-color: white;
+  color: hsl(71, 73%, 54%);
+}
+.btn-sign-up:active {
+  transform: scale(0.9);
 }
 
 .attribution {
   font-size: 11px;
   text-align: center;
   bottom: 0;
-  position: absolute;
   margin-bottom: 1rem;
+  color: black;
+  position: fixed;
 }
 .attribution a {
   color: hsl(179, 62%, 43%);
+}
+
+/* ---------------- RESPONSIVE DESIGN ---------------- */
+@media screen and (max-width: 575px) {
+  main {
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .top {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .top .subtitle {
+    line-height: 1.3em;
+  }
+  .top .description {
+    margin-top: 0.5em;
+    line-height: 1.9em;
+    font-size: 15px;
+  }
+  .bottom {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .monthly-subscription {
+    width: 100%;
+    border-radius: 0;
+  }
+  .why-us {
+    width: 100%;
+    border-bottom-left-radius: 5px;
+  }
 }/*# sourceMappingURL=styles.css.map */

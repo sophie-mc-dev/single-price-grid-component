@@ -14,7 +14,6 @@ This is a solution to the [Single price grid component challenge on Frontend Men
     - [Built with](#built-with)
     - [What I learned](#what-i-learned)
     - [Continued development](#continued-development)
-    - [Useful resources](#useful-resources)
   - [Author](#author)
 
 
@@ -29,13 +28,13 @@ Users should be able to:
 
 ### Screenshot
 
-![](./solution/screenshot.jpg)
+![](./solution/Screenshot.png)
 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Frontend Mentor](https://your-solution-url.com)
+- Live Site URL: [GitHub Pages](https://sophie-mc-dev.github.io/single-price-grid-component/)
 
 ## My process
 
@@ -45,7 +44,6 @@ Users should be able to:
 - CSS custom properties
 - Flexbox
 - CSS Grid
-- Mobile-first workflow
 
 
 ### What I learned
@@ -55,16 +53,10 @@ Users should be able to:
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-
-### Useful resources
-
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- Responsive design 
 
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- LinkedIn - [Sofia Merino Costa](https://www.linkedin.com/in/sofia-m-costa/)
+- Frontend Mentor - [@agirlhasnoname07](https://www.frontendmentor.io/profile/agirlhasnoname07)
