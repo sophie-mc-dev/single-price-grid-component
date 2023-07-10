@@ -20,14 +20,13 @@ body {
   font-family: "Karla", sans-serif;
   font-size: 1em;
   min-height: 100vh;
-  display: flex;
+  display: grid;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
   font-weight: normal;
   color: white;
-  position: relative;
   background-color: hsl(204, 43%, 93%);
+  grid-template-rows: 1fr auto;
 }
 
 main {
@@ -141,10 +140,8 @@ main {
 .attribution {
   font-size: 11px;
   text-align: center;
-  bottom: 0;
   margin-bottom: 1rem;
   color: black;
-  position: fixed;
 }
 .attribution a {
   color: hsl(179, 62%, 43%);
