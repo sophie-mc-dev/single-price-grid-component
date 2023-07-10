@@ -33,7 +33,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Frontend Mentor](https://your-solution-url.com)
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/single-price-grid-component-qiRHd4upgS)
 - Live Site URL: [GitHub Pages](https://sophie-mc-dev.github.io/single-price-grid-component/)
 
 ## My process
